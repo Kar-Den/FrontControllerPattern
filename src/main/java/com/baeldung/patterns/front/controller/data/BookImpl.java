@@ -5,6 +5,15 @@ public class BookImpl implements Book {
     private String title;
     private Double price;
 
+    public BookImpl() {
+    }
+
+    public BookImpl(String author, String title, double price) {
+        this.author = author;
+        this.title = title;
+        this.price = price;
+    }
+
     @Override
     public String getAuthor() {
         return author;
