@@ -1,10 +1,8 @@
-package com.baeldung.patterns.front.controller.commands;
-
-import com.baeldung.patterns.front.controller.data.Book;
+package com.baeldung.patterns.front.controller.data;
 
 import java.util.ArrayList;
 
-public class BookshelfImpl extends ArrayList<Book> implements Bookshelf{
+public class BookshelfImpl extends ArrayList<Book> implements Bookshelf {
     private static Bookshelf INSTANCE;
 
     @Override

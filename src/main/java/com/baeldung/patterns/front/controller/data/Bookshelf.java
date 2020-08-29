@@ -1,7 +1,4 @@
-package com.baeldung.patterns.front.controller.commands;
-
-import com.baeldung.patterns.front.controller.data.Book;
-import com.baeldung.patterns.front.controller.data.BookImpl;
+package com.baeldung.patterns.front.controller.data;
 
 public interface Bookshelf {
     default void init(){
