@@ -7,7 +7,7 @@ public interface Book {
 
  String getTitle();
 
- void setTitle(String titile);
+ void setTitle(String title);
 
  Double getPrice();
 
